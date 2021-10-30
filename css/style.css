@@ -1,0 +1,855 @@
+
+/*全体　共通
+最初から設定してあるので特に変更
+しなくても大丈夫です♪
+-----------------*/
+body{
+	font-family: Roboto, "Yu Gothic Medium", "游ゴシック Medium", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+	line-height: 1.75;
+	font-size: 16px;
+  overflow-x: hidden;
+}
+}
+
+
+/*　パディングをサイズ内側にする処理　*/
+* {
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/*ーーーーーーーーーーー*/
+/*この下から記述*/
+.title_text {
+	background: url(../img/mainbg.png);
+	background-size: cover;
+	background-position: center;
+  height: 400px;
+  color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title_text h1{
+	font-size: 48px;
+}
+
+.title_text p{
+	font-size: 36px;
+}
+
+
+
+
+
+.nav_box{
+	border-bottom: 1px solid #efefef;
+}
+
+.nav_img_box{
+	display: flex;
+	height: 80px;
+	width: 95%;
+	margin: 0 auto;
+	justify-content: space-between;
+}
+
+.nav_img_box img{
+	padding: 15px;
+}
+
+nav ul{
+	display: flex;
+}
+
+nav ul li{
+	font-size: 21px;
+	margin: 10px 20px;
+	padding-top: 10px;
+}	
+
+
+
+
+
+.first_space{
+	width: 100%;
+	height: 120px;
+	color: white;
+}
+
+
+
+
+
+.about_text div{
+	font-size: 24px;
+	color: #ffd61a; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+
+.second_space{
+	width: 100%;
+	height: 24px;
+}
+
+
+
+
+
+.cheese_academy_text div{
+	font-size: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+ 
+
+
+
+
+.third_space{
+	width: 100%;
+	height: 64px;
+}
+
+
+
+
+.cheese_text p{
+	font-size: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+
+.fourth_space{
+	width: 100%;
+	height: 40px;
+}
+
+
+
+
+
+.introduction_box{
+	width: 100%;
+}
+
+.introduction_box_first p{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.introduction_box_second p{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.introduction_box_first_space{
+	width: 100%;
+	height: 30px;
+}
+
+.introduction_box_third p{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.introduction_box_second_space{
+	width: 100%;
+	height: 30px;
+}
+
+.introduction_box_forth p{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.introduction_box_fifth p{
+  display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+
+
+.fifth_space{
+	width: 100%;
+	height: 80px;
+}
+
+
+
+
+
+.moving_picture img{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+
+
+
+.sixth_space{
+	width: 100%;
+	height: 64px;
+}
+
+
+
+
+
+.course_box p{
+	font-size: 24px;
+	flood-color#222222;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.course_box_first_paragraph p{
+	font-size: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.course_box_second_paragraph p{
+	font-size: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+
+
+.nature_box{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nature_box_text{
+	margin: 48px;
+}
+
+.nature_box_first_text p{
+	font-size: 24px;
+	font-color:#222222 ;
+}
+
+.nature_box_first_space{
+	width: 100%;
+	height: 40px;
+}
+
+.nature_box_paragraph div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nature_box_img{
+	width: 170%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nature_box_img img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+
+
+
+
+
+
+.teacher_box{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.teacher_box_text{
+	margin: 48px;
+}
+
+.teacher_box_first_text p{
+	font-size: 24px;
+	font-color:#222222 ;
+}
+
+.teacher_box_first_space{
+	width: 100%;
+	height: 40px;
+}
+
+.teacher_box_paragraph div{
+	width: ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.teacher_box_img{
+	width: 188%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.teacher_box_img img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+
+
+
+
+.pizza_box{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pizza_box_text{
+	margin: 48px;
+}
+
+.pizza_box_first_text p{
+	font-size: 24px;
+	font-color:#222222 ;
+}
+
+.pizza_box_first_space{
+	width: 100%;
+	height: 40px;
+}
+
+.pizza_box_paragraph div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pizza_box_img{
+	width: 190%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pizza_box_img img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+
+
+.seventh_space{
+	width: 100%;
+	height: 64px;
+}
+
+
+
+
+
+.news_box p{
+	font-size: 24px;
+	flood-color#ffd61a;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.news_box_first_paragraph p{
+	font-size: 24px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+
+.seventh_space{
+	width: 100%;
+	height: 64px;
+}
+
+
+
+
+
+.many_cheesee_box{
+	width: 100%;
+	margin: 16px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.many_cheesee_img img{
+	width: 100%;
+}
+
+.many_cheesee_img_underspace{
+	width: 100%;
+	height: 32px;
+}
+
+.many_cheesee_box_text{
+	width: 100%;
+}
+
+.many_cheesee_box_space{
+	width: 100%;
+	height: 24px;
+}
+
+
+.eighth_space{
+	width: 100%;
+	height: 56px;
+}
+
+
+
+
+
+.more_box{
+	width: 100%;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.more_box_button{
+	width: 300px;
+	height: 60px;
+
+}
+
+.more_box_text{
+	width: 100%;
+	font-size: 21px;
+	color: white;
+	text-align: center;
+	display: block;
+	padding: 10px 0 10px;
+	background: #ffd61a;
+	border-radius: 10px;
+}
+
+
+
+
+.ninth_space{
+	width: 100%;
+	height: 56px;
+}
+
+
+
+
+.tenth_space{
+	width: 100%;
+	height: 64px;
+}
+
+
+
+
+.access_box{
+	width: 100%;
+	background-color: #fafafa;
+}
+
+.access_text p{
+	font-weight: 900;
+	font-size: 24px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+
+.eleventh_space{
+	width: 100%;
+  height: 24px;
+}
+
+
+.kaikei_text{
+	font-size: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.twelfth_one_space{
+	width: 100%;
+	height: 64px;
+}
+
+
+
+
+.thirteenth_space{
+	width: 100%;
+	height: 64px;
+}
+
+
+
+
+.campany_box{
+	width: 100%;
+}
+
+.campany_box_first_space{
+	width: 100%;
+	height: 64px;
+}
+
+.campany_box_shool_name{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.campany_box_address{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.campany_box_second_space{
+  width: 100%;
+	height: 24px;
+}
+
+.campany_box_tel{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.campany_box_fax{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.campany_box_mail{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.campany_box_last_space{
+	width: 100%;
+	height: 80px;
+}
+
+
+
+.contact_box{
+	width: 100%;
+	
+}
+
+.contact_box_contact{
+	font-weight: 900;
+	font-size: 24px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact_box_toiawase{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact_box_first_space{
+	width: 100%;
+	height: 80px;
+}
+
+.contact_box_zehi p{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.contact_box_under_omachi{
+	width: 100%;
+	height: 32px;
+}
+
+.contact_box_komejirushi p{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.contact_box_under_onegai{
+	width: 100%;
+	height: 80px;
+}
+
+
+/*form*/
+.lead-form{
+  text-align: center;
+  font-size:16px;
+}
+form{
+  width:600px;
+  margin:0 auto;
+}
+.item_one{
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.item_two{
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.item_three{
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.label{
+  float: left;
+  margin-right: 20px;
+  width:135px;
+  padding-left: 10px;
+}
+.inputs{
+  float: left;
+  width:300px;
+	display: block;
+	justify-content: center;
+	align-items: center;
+	margin: 0 0 10px 20px;
+}
+
+.inputs_kigyo{
+	margin-bottom: 12px;
+}
+.inputs_syusyoku{
+	margin-bottom: 12px;
+}
+
+.inputs_ikasu{
+	margin-bottom: 12px;
+}
+.inputs_kyoyo{
+	margin-bottom: 16px;
+}
+
+
+
+input[type="text"],input[type="checkbox"],input[type="email"]{
+  border: solid 1px #bfbfbf;
+  border-radius:5px;
+  padding:10px;
+  font-size: 14px;
+}
+
+.checkbox label:before {
+	content:		'';
+	width:			24px;			/* ボックスの横幅 */
+	height:			24px;			/* ボックスの縦幅 */
+	display:		inline-block;
+	position:		absolute;
+	left:			0;
+	background-color:	#fff;
+	box-shadow:		inset 1px 2px 3px 0px #000;
+	border-radius:		6px 6px 6px 6px;
+	}
+
+
+textarea{
+  border: solid 1px #aaa;
+  border-radius:5px;
+  padding: 10px;
+	width: 328px;
+  height: 108px;
+  font-size: 16px;
+	margin-bottom: 40px;
+}
+.btn-area{
+  text-align: center;
+}
+input[type="submit"]{
+  background: #ffd61a;
+  border: none;
+  color: white;
+	width: 298px;
+	height: 54px;
+  font-size:18px;
+  padding: 10px 20px;
+  margin: 0 5px;
+}
+
+.footer_area{
+	width: 100%;
+	height: 200px;
+}
+
+
+.wrapper{
+  min-height: 100vh;
+}
+
+
+footer{
+	 width: 100%;
+	 background-color: #707070;
+	 color:white;
+	 text-align: center;
+	 padding: 32px 0 ;
+	 position: absolute;/
+   bottom: 0; /
+                }
+
+.footer_area_first{
+	width: 100%;
+	height: 80px;
+}								
+
+.footer_area{
+	width: 100%;
+	height: 50px;
+	margin-top: 70px;
+}
+
+footer p{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 32px;
+}
+
+
+
+.full-width {
+	  width: 100%;
+		background-color: #707070;
+		margin-top: 32px;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+}
+
+
+.footer_area_first{
+	width: 100%;
+	height: 20px;
+}
+
+.footer_area_button{
+	display: flex;
+	justify-content: end;
+}
+
+.footer_space_text_area{
+	width: 100%;
+	height: 120px;
+	margin-top: 32px;
+}
+
+/***トップへ戻るボタン***/
+#page-top {
+    display: block;
+    font-weight: bold;
+    padding: .7em;
+    text-align: center;
+    background: #fff; /*背景色*/
+    color: #666; /*文字色*/
+    transition: .3s;
+}
+/***マウスオーバー時***/
+#page-top:hover {
+    background: #666; /*背景色*/
+    color: #fff; /*文字色*/
+}
+/***トップへ戻るボタンここまで***/
+
+/*どの部分のcssに対して
+命令をしているのかコメントを
+記載しよう！
+---------------------*/
+
+
+/*
+---------------------*/
+
+
+
+/*
+---------------------*/
+
+
+
+/*
+---------------------*/
+
+
+
+/*
+---------------------*/
